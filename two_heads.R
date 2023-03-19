@@ -13,7 +13,7 @@ j <- 1
 
 # first loop to generate random vectors (length 100) of fair coin flips
 for (j in 1:B) {
-  vex[[j]] <- rbinom(100, 1, 0.5)
+  vex[[j]] <- rbinom(n, 1, 0.5)
 }
 
 # nested loop to evaluate all vectors
